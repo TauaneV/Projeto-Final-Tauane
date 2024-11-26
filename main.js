@@ -36,7 +36,7 @@ function getProjects() {
       div.classList.add("project-item"); // Classe para estilização
   
       const a = document.createElement("a");
-      a.href = repo["hhttps://github.com/TauaneV?tab=repositories"]; // Link para o repositório no GitHub
+      a.href = repo["https://github.com/TauaneV?tab=repositories"]; // Link para o repositório no GitHub
       a.target = "_blank";
       a.title = repo["description"] || "Repositório no GitHub";
       a.textContent = repo["name"];
